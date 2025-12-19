@@ -1,11 +1,20 @@
-<script setup></script>
+<script setup>
+import BaseButton from "@/components/BaseButton.vue";
+import HomeView from "@/components/view/HomeView.vue";
+import BaseHeader from "@/components/view/BaseHeader.vue";
+import NewCardModal from "@/components/view/NewCardModal.vue";
+import ExitModal from "@/components/view/ExitModal.vue";
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+
+  <main>
+    <base-header/>
+    <home-view/>
+    <new-card-modal/>
+    <exit-modal/>
+  </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>
