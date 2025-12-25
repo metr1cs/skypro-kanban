@@ -4,6 +4,7 @@
 
 <template>
   <div class="wrapper">
+    <!-- pop-up start-->
     <div class="pop-browse" id="popBrowse">
       <div class="pop-browse__container">
         <div class="pop-browse__block">
